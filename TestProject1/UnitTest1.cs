@@ -26,4 +26,9 @@ public class Tests {
 	public void Convert5ToBuzz() {
 		Assert.That(new FizzBuzz().Convert(5), Is.EqualTo("Buzz"));
 	}
+
+	[Test]
+	public void Convert15ToFizzBuzz() {
+		Assert.That(new FizzBuzz().Convert(15), Is.EqualTo("FizzBuzz"));
+	}
 }
