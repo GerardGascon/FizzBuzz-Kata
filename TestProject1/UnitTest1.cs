@@ -18,8 +18,12 @@ public class Tests {
 	}
 
 	[Test]
-	public void Convert3toFizz()
-	{
+	public void Convert3ToFizz() {
 		Assert.That(new FizzBuzz().Convert(3), Is.EqualTo("Fizz"));
+	}
+
+	[Test]
+	public void Convert5ToBuzz() {
+		Assert.That(new FizzBuzz().Convert(5), Is.EqualTo("Buzz"));
 	}
 }

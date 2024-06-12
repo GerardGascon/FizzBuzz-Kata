@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1205bce9-cbd4-4c3b-89a3-f01cc077b9b5" name="Changes" comment="test: convert 2 to 2">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/UnitTest1.cs" afterDir="false" />
-    </list>
+    <list default="true" id="1205bce9-cbd4-4c3b-89a3-f01cc077b9b5" name="Changes" comment="test: Converted conversion tests to multiple case test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +33,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/88743505549d772cebdee1c2bbaea156cd4092c7f6cb2ba18c845c74c28e0/TestCaseSourceAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/BorrarMesTard/ConsoleApp1/TestProject1/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -98,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718208099988</updated>
       <workItem from="1718208099989" duration="560000" />
-      <workItem from="1718209079210" duration="1865000" />
+      <workItem from="1718209079210" duration="2381000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -132,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718210269031</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test: Converted conversion tests to multiple case test">
+      <option name="closed" value="true" />
+      <created>1718211021605</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718211021605</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +152,7 @@
     <MESSAGE value="test: convert1to1" />
     <MESSAGE value="feat: convert1to1 working" />
     <MESSAGE value="test: convert 2 to 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: convert 2 to 2" />
+    <MESSAGE value="test: Converted conversion tests to multiple case test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: Converted conversion tests to multiple case test" />
   </component>
 </project>
