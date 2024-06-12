@@ -11,15 +11,19 @@ public class Tests {
 		yield return new TestCaseData(2, "2");
 		yield return new TestCaseData(4, "4");
 	}
-
 	[Test, TestCaseSource(nameof(NumberConversionData))]
 	public void ConvertIntToString(int number, string expectedResult) {
 		Assert.That(new FizzBuzz().Convert(number), Is.EqualTo(expectedResult));
 	}
 
-	[Test]
-	public void Convert3ToFizz() {
-		Assert.That(new FizzBuzz().Convert(3), Is.EqualTo("Fizz"));
+	private static IEnumerable<TestCaseData> FizzConversionData() {
+		yield return new TestCaseData(3);
+		yield return new TestCaseData(6);
+		yield return new TestCaseData(9);
+	}
+	[Test, TestCaseSource(nameof(FizzConversionData))]
+	public void ConvertToFizz(int number) {
+		Assert.That(new FizzBuzz().Convert(number), Is.EqualTo("Fizz"));
 	}
 
 	[Test]
