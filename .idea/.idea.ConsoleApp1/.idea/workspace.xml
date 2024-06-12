@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1205bce9-cbd4-4c3b-89a3-f01cc077b9b5" name="Changes" comment="test: convert to fizz covering multiple cases">
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/FizzBuzz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/FizzBuzz.cs" afterDir="false" />
+    <list default="true" id="1205bce9-cbd4-4c3b-89a3-f01cc077b9b5" name="Changes" comment="feat: fizz working for all cases">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718208099988</updated>
       <workItem from="1718208099989" duration="560000" />
-      <workItem from="1718209079210" duration="3003000" />
+      <workItem from="1718209079210" duration="3871000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -180,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718212094465</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: fizz working for all cases">
+      <option name="closed" value="true" />
+      <created>1718212143750</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718212143750</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +220,7 @@
     <MESSAGE value="test: convert 15 to fizzbuzz" />
     <MESSAGE value="feat: fizzbuzz in convert method" />
     <MESSAGE value="test: convert to fizz covering multiple cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: convert to fizz covering multiple cases" />
+    <MESSAGE value="feat: fizz working for all cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fizz working for all cases" />
   </component>
 </project>
