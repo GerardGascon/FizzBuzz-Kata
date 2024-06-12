@@ -7,7 +7,7 @@ public class Tests {
 	public void Setup() { }
 
 	[Test]
-	public void Test1() {
-
+	public void Convert1To1() {
+		Assert.AreEqual("1", new FizzBuzz().Convert(1));
 	}
 }
