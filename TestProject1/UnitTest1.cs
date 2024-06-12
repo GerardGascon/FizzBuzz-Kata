@@ -6,18 +6,14 @@ public class Tests {
 	[SetUp]
 	public void Setup() { }
 
-	[Test]
-	public void Convert1To1() {
-		Assert.That(new FizzBuzz().Convert(1), Is.EqualTo("1"));
+	private static IEnumerable<TestCaseData> NumberConversionData() {
+		yield return new TestCaseData(1, "1");
+		yield return new TestCaseData(2, "2");
+		yield return new TestCaseData(4, "4");
 	}
 
-	[Test]
-	public void Convert2To2() {
-		Assert.That(new FizzBuzz().Convert(2), Is.EqualTo("2"));
+	[Test, TestCaseSource(nameof(NumberConversionData))]
+	public void ConvertIntToString(int number, string expectedResult) {
+		Assert.That(new FizzBuzz().Convert(number), Is.EqualTo(expectedResult));
 	}
-	[Test]
-	public void Convert4To4() {
-		Assert.That(new FizzBuzz().Convert(4), Is.EqualTo("4"));
-	}
-	
 }
