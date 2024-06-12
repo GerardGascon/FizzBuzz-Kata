@@ -15,4 +15,8 @@ public class Tests {
 	public void Convert2To2() {
 		Assert.That(new FizzBuzz().Convert(2), Is.EqualTo("2"));
 	}
+	[Test]
+	public void Convert4To4() {
+		Assert.That(new FizzBuzz().Convert(4), Is.EqualTo("4"));
+	}
 }
