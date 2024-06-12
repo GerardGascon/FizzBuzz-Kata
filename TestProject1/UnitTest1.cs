@@ -16,4 +16,10 @@ public class Tests {
 	public void ConvertIntToString(int number, string expectedResult) {
 		Assert.That(new FizzBuzz().Convert(number), Is.EqualTo(expectedResult));
 	}
+
+	[Test]
+	public void Convert3toFizz()
+	{
+		Assert.That(new FizzBuzz().Convert(3), Is.EqualTo("Fizz"));
+	}
 }
