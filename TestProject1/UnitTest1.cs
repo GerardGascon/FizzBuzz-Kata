@@ -35,9 +35,14 @@ public class Tests {
 	public void ConvertToBuzz(int number) {
 		Assert.That(new FizzBuzz().Convert(number), Is.EqualTo("Buzz"));
 	}
-
-	[Test]
-	public void Convert15ToFizzBuzz() {
-		Assert.That(new FizzBuzz().Convert(15), Is.EqualTo("FizzBuzz"));
+	
+	private static IEnumerable<TestCaseData> FizzBuzzConversionData() {
+		yield return new TestCaseData(15);
+		yield return new TestCaseData(30);
+		yield return new TestCaseData(45);
+	}
+	[Test, TestCaseSource(nameof(FizzBuzzConversionData))]
+	public void ConvertToFizzBuzz(int number) {
+		Assert.That(new FizzBuzz().Convert(number), Is.EqualTo("FizzBuzz"));
 	}
 }
