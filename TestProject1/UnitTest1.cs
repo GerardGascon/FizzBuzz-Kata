@@ -19,4 +19,5 @@ public class Tests {
 	public void Convert4To4() {
 		Assert.That(new FizzBuzz().Convert(4), Is.EqualTo("4"));
 	}
+	
 }
