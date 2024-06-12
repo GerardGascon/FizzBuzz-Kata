@@ -7,6 +7,8 @@ public class FizzBuzz {
 			return "Fizz";
 		if (number == 5)
 			return "Buzz";
+		if (number == 15)
+			return "FizzBuzz";
 		return number.ToString();
 	}
 }

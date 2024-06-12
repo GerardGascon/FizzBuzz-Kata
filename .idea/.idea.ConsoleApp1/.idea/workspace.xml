@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1205bce9-cbd4-4c3b-89a3-f01cc077b9b5" name="Changes" comment="feat: buzz in convert method">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/UnitTest1.cs" afterDir="false" />
+    <list default="true" id="1205bce9-cbd4-4c3b-89a3-f01cc077b9b5" name="Changes" comment="test: convert 15 to fizzbuzz">
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/FizzBuzz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/FizzBuzz.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718208099988</updated>
       <workItem from="1718208099989" duration="560000" />
-      <workItem from="1718209079210" duration="2628000" />
+      <workItem from="1718209079210" duration="2698000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -157,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718211708272</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test: convert 15 to fizzbuzz">
+      <option name="closed" value="true" />
+      <created>1718211772326</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718211772326</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +172,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init" />
@@ -174,6 +192,7 @@
     <MESSAGE value="test: Converted conversion tests to multiple case test" />
     <MESSAGE value="test: convert 5 to buzz" />
     <MESSAGE value="feat: buzz in convert method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: buzz in convert method" />
+    <MESSAGE value="test: convert 15 to fizzbuzz" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: convert 15 to fizzbuzz" />
   </component>
 </project>
